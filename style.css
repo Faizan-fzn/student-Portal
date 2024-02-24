@@ -53,3 +53,39 @@ td {
     border: 1px solid #000;
   } 
 
+ @media only screen and (max-width: 500px){
+    
+    .navBar{
+        width: 100vw;
+        height: 4vh;
+    }
+    #searchBar{
+        width: 51vw;
+        border-radius: 10px;
+        padding: 2px;
+        height: 5vh;
+    }
+    .searchBtn{
+        width: 41vw;
+        border-radius: 10px;
+        height: 6vh;
+    }
+    .sortBtn{
+        width: 31%;
+        font-size: 1rem;
+        height: 5vh;
+        border-radius: 10px;
+    }
+    .studentData {
+        /* width: 50vw; */
+        font-size: .9rem;
+        width: 100vw; 
+    }
+    td {
+        word-wrap: break-word;
+      }
+      table {
+        table-layout: fixed;
+      }
+   
+  }
