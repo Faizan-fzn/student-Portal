@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar {
+    height: 5vh;
+    background-color: black;
+    color: white;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    font-size: 1.1rem;
+}
+#searchBar{
+    margin-top: 2.5vh;
+    width: 70vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    margin-left: 3vw;
+    padding-left: 1vw;
+}
+.searchBtn{
+    height: 7vh;
+    width: 20.5vw;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+.sortBtn{
+    height: 7vh; 
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 1.6vw;
+    font-size: 1.5rem;
+    width: 14vw;
+    margin-top: 2.5vh;
+}
+.sortContainer{
+    margin-left: 1vw;
+}
+ .studentData{
+    margin-top: 3vh;
+    width: 94%;
+   font-size: 1.2rem;
+   text-align: center;
+   border-collapse: collapse;
+   border: 1px solid black;
+    margin-left: 2.9vw;
+}
+td {
+    border: 1px solid #000;
+  } 
+
